@@ -1,16 +1,14 @@
-import React from "react";
-import  ReactDOM  from "react";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
 
-import Card from './components/Cards'
-import Sdata from './sdata'
 
-ReactDOM.render(<>
-{
-Sdata.map((val)=>{
-    console.log(val)
-})
-}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-</>
-,document.getElementById('root')
-)
+
