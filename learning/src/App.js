@@ -1,4 +1,5 @@
 import './App.css';
+import AsioxPokemon from './components/AsioxPokemon';
 import Chal8 from './components/Chal8';
 import CompA from './components/CompA'
 import Useeffect from './components/Useeffect';
@@ -10,7 +11,8 @@ function App() {
     <>
         {/* <CompA/> */}
         {/* <Useeffect/> */}
-        <Chal8/>
+        {/* <Chal8/> */}
+        <AsioxPokemon/>
     </>
   );
 }
